@@ -6,6 +6,7 @@ import java.util.Optional;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.srikanth.entity.ContactEntity;
@@ -30,7 +31,7 @@ public class ContactServiceImpl implements ContactService {
 	@Override
 	public List<Contact> getAllContacts() {
 		List<Contact> contactList = new ArrayList<Contact>();
-		List<ContactEntity> entitiesList = contactRepo.findAll();
+		List<ContactEntity> entitiesList = contactRepo.findAll(Sort.by("conName").ascending());
 		entitiesList.forEach(entity -> {
 			Contact c = new Contact();
 			BeanUtils.copyProperties(entity, c);

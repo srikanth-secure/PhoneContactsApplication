@@ -3,7 +3,9 @@ package com.srikanth.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 import lombok.Data;
@@ -14,7 +16,8 @@ import lombok.Data;
 public class ContactEntity {
 
 	@Id
-	@GeneratedValue
+	@SequenceGenerator(sequenceName = "CONTACT_ID_SEQ", name = "C_ID_SEQ", allocationSize = 1)
+	@GeneratedValue(generator = "C_ID_SEQ", strategy = GenerationType.SEQUENCE)
 	@Column(name = "CONTACT_ID")
 	private Integer conId;
 
