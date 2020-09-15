@@ -10,3 +10,5 @@ This is a Spring Boot application with the following dependencies.
 
 This application demonstrates basic Spring Data JPA curd operations. The User Interface is in JSP.
 For requirments please refer to "Phone Book Web Application Requirement Document.pdf"
+-----------------------------------
+The output screens are in "Output Screens of the Application" folder
