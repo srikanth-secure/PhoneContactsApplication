@@ -12,3 +12,5 @@ This application demonstrates basic Spring Data JPA curd operations. The User In
 For requirments please refer to "Phone Book Web Application Requirement Document.pdf"
 -----------------------------------
 The output screens are in "Output Screens of the Application" folder
+---------------------------
+Sonar Qube Istall and Run process is in the file
