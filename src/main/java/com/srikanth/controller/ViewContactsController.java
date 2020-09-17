@@ -16,10 +16,6 @@ public class ViewContactsController {
 	@Autowired
 	private ContactService contactService;
 
-	public String handleAddContactHyperLink(Model model) {
-		return null;
-	}
-
 	@GetMapping("/editContact")
 	public String editContact(@RequestParam("conId") Integer conId, Model model) {
 		Contact contact = contactService.getContactById(conId);

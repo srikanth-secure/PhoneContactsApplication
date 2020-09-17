@@ -12,7 +12,7 @@
 	<font color='green'>${succMsg}</font>
 	<font color='red'>${errMsg}</font>
 	<form:form action="saveContact" method="POST" modelAttribute="contact">
-		<table>
+		<table border="1">
 			<tr>
 				<td>Contact Name</td>
 				<td><form:input path="conName" /></td>
@@ -27,7 +27,9 @@
 				<td><form:input path="conNumber" /></td>
 			</tr>
 			<tr>
-				<td><input type="submit" value="Submit" /></td>
+				<td></td>
+				<td><input type="submit" style="background-color: green"
+					value="     Submit     " /></td>
 			</tr>
 		</table>
 	</form:form>
