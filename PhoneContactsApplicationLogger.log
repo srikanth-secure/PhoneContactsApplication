@@ -1,0 +1,80 @@
+2020-09-18 22:34:34.355  INFO 16604 --- [restartedMain] com.srikanth.PhoneContactsApplication    : Starting PhoneContactsApplication on DESKTOP-0N6ML5B with PID 16604 (C:\Users\Snikky\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\11 JRTP-124\PhoneContactsApplication\target\classes started by Snikky in C:\Users\Snikky\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\11 JRTP-124\PhoneContactsApplication)
+2020-09-18 22:34:34.358  INFO 16604 --- [restartedMain] com.srikanth.PhoneContactsApplication    : No active profile set, falling back to default profiles: default
+2020-09-18 22:34:34.415  INFO 16604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-18 22:34:34.419  INFO 16604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-18 22:34:34.968  INFO 16604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-18 22:34:35.021  INFO 16604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 1 JPA repository interfaces.
+2020-09-18 22:34:35.482  INFO 16604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-09-18 22:34:35.490  INFO 16604 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-18 22:34:35.491  INFO 16604 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-18 22:34:35.717  INFO 16604 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-18 22:34:35.722  INFO 16604 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-18 22:34:35.722  INFO 16604 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1303 ms
+2020-09-18 22:34:35.902  INFO 16604 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-18 22:34:35.940  INFO 16604 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-18 22:34:35.989  WARN 16604 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-18 22:34:35.996  INFO 16604 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-18 22:34:36.209  INFO 16604 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-18 22:34:36.277  INFO 16604 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-18 22:34:36.306  INFO 16604 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-18 22:34:36.417  INFO 16604 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-18 22:34:36.472  INFO 16604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-09-18 22:34:36.474  INFO 16604 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-18 22:34:36.800  INFO 16604 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-18 22:34:36.813  INFO 16604 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-09-18 22:34:37.310  INFO 16604 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-18 22:34:37.316  INFO 16604 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-18 22:34:37.462  INFO 16604 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-18 22:34:37.472  INFO 16604 --- [restartedMain] com.srikanth.PhoneContactsApplication    : Started PhoneContactsApplication in 3.46 seconds (JVM running for 4.209)
+2020-09-18 22:34:56.716  INFO 16604 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-18 22:34:56.719  INFO 16604 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-18 22:34:56.720  INFO 16604 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-18 22:34:56.724  INFO 16604 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-18 22:34:56.945  INFO 16604 --- [restartedMain] com.srikanth.PhoneContactsApplication    : Starting PhoneContactsApplication on DESKTOP-0N6ML5B with PID 16604 (C:\Users\Snikky\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\11 JRTP-124\PhoneContactsApplication\target\classes started by Snikky in C:\Users\Snikky\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\11 JRTP-124\PhoneContactsApplication)
+2020-09-18 22:34:56.945  INFO 16604 --- [restartedMain] com.srikanth.PhoneContactsApplication    : No active profile set, falling back to default profiles: default
+2020-09-18 22:34:57.135  INFO 16604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-18 22:34:57.146  INFO 16604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 JPA repository interfaces.
+2020-09-18 22:34:57.269  INFO 16604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-09-18 22:34:57.270  INFO 16604 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-18 22:34:57.270  INFO 16604 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-18 22:34:57.354  INFO 16604 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-18 22:34:57.356  INFO 16604 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-18 22:34:57.356  INFO 16604 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 408 ms
+2020-09-18 22:34:57.403  INFO 16604 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-18 22:34:57.408  INFO 16604 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-18 22:34:57.414  INFO 16604 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-09-18 22:34:57.430  INFO 16604 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-09-18 22:34:57.431  INFO 16604 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-09-18 22:34:57.434  WARN 16604 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-18 22:34:57.467  INFO 16604 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-18 22:34:57.468  INFO 16604 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-18 22:34:57.502  INFO 16604 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-18 22:34:57.519  INFO 16604 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-18 22:34:57.590  INFO 16604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-09-18 22:34:57.591  INFO 16604 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-18 22:34:57.632  INFO 16604 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-18 22:34:57.637  INFO 16604 --- [restartedMain] com.srikanth.PhoneContactsApplication    : Started PhoneContactsApplication in 0.726 seconds (JVM running for 24.374)
+2020-09-18 22:34:57.638  INFO 16604 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-18 22:35:07.707  INFO 16604 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-18 22:35:07.707  INFO 16604 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-18 22:35:07.713  INFO 16604 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-09-18 22:35:07.738  INFO 16604 --- [http-nio-8090-exec-1] c.s.controller.ContactInfoController     :    ***   index() method executed successfully for display contact form   ***
+2020-09-18 22:35:45.505  INFO 16604 --- [http-nio-8090-exec-2] c.s.controller.ContactInfoController     :    ***   handleSubmitBtn() method exceution is started***
+2020-09-18 22:35:46.218  INFO 16604 --- [http-nio-8090-exec-2] c.s.controller.ContactInfoController     :    ***   handleSubmitBtn() method contact saved***
+2020-09-18 22:35:46.218  INFO 16604 --- [http-nio-8090-exec-2] c.s.controller.ContactInfoController     :    ***   handleSubmitBtn() method exceution is finished***
+2020-09-18 22:35:46.271  INFO 16604 --- [http-nio-8090-exec-3] c.s.controller.ContactInfoController     :    ***   index() method executed successfully for display contact form   ***
+2020-09-18 22:36:10.907  INFO 16604 --- [http-nio-8090-exec-6] c.s.controller.ContactInfoController     :    ***   handleViewLink() method exceution is started***
+2020-09-18 22:36:12.139  INFO 16604 --- [http-nio-8090-exec-6] c.s.controller.ContactInfoController     :    ***   handleViewLink() method exceution is finished***
+2020-09-18 22:36:22.658  INFO 16604 --- [http-nio-8090-exec-5] c.s.controller.ContactInfoController     :    ***   editContact() method exceution is started***
+2020-09-18 22:36:22.678  INFO 16604 --- [http-nio-8090-exec-5] c.s.controller.ContactInfoController     :    ***   editContact() method exceution is finished***
+2020-09-18 22:36:27.851  INFO 16604 --- [http-nio-8090-exec-7] c.s.controller.ContactInfoController     :    ***   handleSubmitBtn() method exceution is started***
+2020-09-18 22:36:27.877  INFO 16604 --- [http-nio-8090-exec-7] c.s.controller.ContactInfoController     :    ***   in handleSubmitBtn() method contact updated***
+2020-09-18 22:36:27.877  INFO 16604 --- [http-nio-8090-exec-7] c.s.controller.ContactInfoController     :    ***   handleSubmitBtn() method exceution is finished***
+2020-09-18 22:36:27.885  INFO 16604 --- [http-nio-8090-exec-8] c.s.controller.ContactInfoController     :    ***   index() method executed successfully for display contact form   ***
+2020-09-18 22:36:30.319  INFO 16604 --- [http-nio-8090-exec-9] c.s.controller.ContactInfoController     :    ***   handleViewLink() method exceution is started***
+2020-09-18 22:36:30.330  INFO 16604 --- [http-nio-8090-exec-9] c.s.controller.ContactInfoController     :    ***   handleViewLink() method exceution is finished***
+2020-09-18 22:37:14.467  INFO 16604 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-18 22:37:14.629  INFO 16604 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-18 22:37:14.629  INFO 16604 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-18 22:37:14.631  INFO 16604 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-09-18 22:37:14.640  INFO 16604 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
