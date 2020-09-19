@@ -14,3 +14,4 @@ For requirments please refer to "Phone Book Web Application Requirement Document
 The output screens are in "Output Screens of the Application" folder
 ---------------------------
 Sonar Qube Istall and Run process is in the file
+Updated with logger
